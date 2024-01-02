@@ -10,7 +10,7 @@
 
     width: 1024px;
     height: 100%;
-    margin: 64px auto 32px;
+    margin: 32px auto 32px;
     border-radius: 5px;
 
     overflow: hidden;
@@ -18,40 +18,12 @@
     transition: all .2s ease-in-out;
     animation: fadeUp 2s cubic-bezier(.19,1,.22,1) forwards;
   }
-
-  &-header {
-    background-color: #00b38a;
-    padding: 32px 48px 24px;
-    color: #fff;
-    overflow: hidden;
-  }
-
-  &-title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 8px;
-    border-bottom: 2px solid #00a982;
-
-    &-left,
-    &-right {
-      display: flex;
-      column-gap: 10px;
-      align-items: baseline;
-    }
-  }
-
-  &-info {
-    display: flex;
-    justify-content: space-between;
-  }
 }
-
 
 @keyframes fadeUp {
   0% {
     opacity: 0;
-    transform: translate3d(0,48px,0)
+    transform: translate3d(0, 10px, 0)
   }
 
   to {
